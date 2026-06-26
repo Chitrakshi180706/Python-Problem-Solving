@@ -1,0 +1,13 @@
+Task
+You are given a string S.
+Your task is to find out if the string S contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
+
+Solution
+if __name__ == '__main__':
+    s = input()
+    print (s.isalnum())
+    print (s.isalpha())
+    print (s.isdigit())
+    print (s.islower())
+    print (s.isupper())
+   
